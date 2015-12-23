@@ -1,0 +1,31 @@
+{
+  "name": "chess-platform",
+  "description": "Plataforma para aprender ajedrez",
+  "main": "index.js",
+  "authors": [
+    "Paulo Andrade"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "servidor",
+    "web",
+    "frontend",
+    "kit",
+    "inicio"
+  ],
+  "homepage": "https://github.com/nemesis866/chess",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "bootstrap": "~3.3.5",
+    "angular-route": "~1.4.8"
+  }
+}

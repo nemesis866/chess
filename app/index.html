@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>Web Kit Starter AngularJS</title>
+
+	<!-- bower:css -->
+	<link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css" />
+	<!-- endbower -->
+	<!-- inject:css -->
+	<link rel="stylesheet" href="/min/css/main.css">
+	<!-- endinject -->
+
+	<base href="/">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="/">Inicio</a></li>
+			<li><a href="/page1">Página 1</a></li>
+			<li><a href="/page2">Página 2</a></li>
+		</ul>
+	</nav>
+	<div ng-view></div>
+
+	<!-- bower:js -->
+	<script src="vendor/jquery/dist/jquery.js"></script>
+	<script src="vendor/angular/angular.js"></script>
+	<script src="vendor/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="vendor/angular-route/angular-route.js"></script>
+	<!-- endbower -->
+	<!-- inject:js -->
+	<script src="/min/js/build.js"></script>
+	<!-- endinject -->
+</body>
+</html>
